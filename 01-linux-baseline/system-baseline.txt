@@ -1,40 +1,29 @@
-     Static hostname: (unset)
-  Transient hostname: 2603-900b-baf0-38e0-0000-0000-0000-128b.inf6.spectrum.com
-           Icon name: computer-convertible
-             Chassis: convertible
-          Machine ID: 8a51275e94a04b1a8fd33c19ad8f319c
-             Boot ID: 310ef68009dd46a6bd4ccd62ad3ccafb
-    Operating System: Rocky Linux 10.2 (Red Quartz)
-         CPE OS Name: cpe:/o:rocky:rocky:10::baseos
-      OS Support End: Thu 2035-05-31
-OS Support Remaining: 8y 9month 1d
-              Kernel: Linux 6.12.0-211.16.1.el10_2.0.1.x86_64
-        Architecture: x86-64
-     Hardware Vendor: Lenovo
-      Hardware Model: Yoga 7 15ITL5
-    Firmware Version: F5CN38WW
-       Firmware Date: Mon 2020-10-26
-        Firmware Age: 5y 10month 2d
-NAME="Rocky Linux"
-VERSION="10.2 (Red Quartz)"
-RELEASE_TYPE="stable"
-ID="rocky"
-ID_LIKE="rhel centos fedora"
-VERSION_ID="10.2"
-PLATFORM_ID="platform:el10"
-PRETTY_NAME="Rocky Linux 10.2 (Red Quartz)"
-ANSI_COLOR="0;32"
-LOGO="fedora-logo-icon"
-CPE_NAME="cpe:/o:rocky:rocky:10::baseos"
-HOME_URL="https://rockylinux.org/"
-VENDOR_NAME="RESF"
-VENDOR_URL="https://resf.org/"
-BUG_REPORT_URL="https://bugs.rockylinux.org/"
-SUPPORT_END="2035-05-31"
-ROCKY_SUPPORT_PRODUCT="Rocky-Linux-10"
-ROCKY_SUPPORT_PRODUCT_VERSION="10.2"
-REDHAT_SUPPORT_PRODUCT="Rocky Linux"
-REDHAT_SUPPORT_PRODUCT_VERSION="10.2"
-Linux 2603-900b-baf0-38e0-0000-0000-0000-128b.inf6.spectrum.com 6.12.0-211.16.1.el10_2.0.1.x86_64 #1 SMP PREEMPT_DYNAMIC Sun May 24 12:24:17 UTC 2026 x86_64 GNU/Linux
- 20:46:39 up  9:06,  1 user,  load average: 0.32, 0.19, 0.08
- 20:46:51 up  9:07,  1 user,  load average: 0.25, 0.18, 0.07
+Linux Server Baseline
+=====================
+
+Operating System: Rocky Linux 10.2 (Red Quartz)
+Architecture: x86-64
+Kernel: Linux 6.12.0-211.16.1.el10_2.0.2.x86_64
+
+Package Management:
+- DNF
+- RPM
+
+Repositories:
+- BaseOS
+- AppStream
+- Extras
+
+Services:
+- systemd
+- SSH (sshd)
+
+System Administration Tasks Completed:
+- Identified operating system
+- Identified kernel version
+- Identified architecture
+- Checked system uptime
+- Inspected DNF repositories
+- Reviewed DNF package history
+- Installed and removed a test package
+- Inspected package contents and ownership
